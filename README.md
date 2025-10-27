@@ -55,7 +55,7 @@ The system uses **RFID for access control**, ensuring that only **authenticated 
 ## 🔩 System Architecture
 
 ### 🔸 Block Diagram
-![Block Diagram](img/1.png)
+![Block Diagram](project/img/1.png)
 
 **Block Description**
 | Component | Function |
@@ -74,7 +74,7 @@ The system uses **RFID for access control**, ensuring that only **authenticated 
 ---
 
 ## 💻 Circuit Simulation
-![Proteus Simulation](img/2.jpg)
+![Proteus Simulation](/project/img/2.jpg)
 
 Simulated using **Proteus Design Suite**, which validates:
 - UART communication between RFID → MCU → LCD  
@@ -87,21 +87,21 @@ Simulated using **Proteus Design Suite**, which validates:
 ## 🔬 Hardware Implementation
 
 ### 🧱 Power Generation and Rectification
-![Piezo Test](img/4.jpg)
+![Piezo Test](project/img/4.jpg)
 The **piezo array** is connected in parallel and series configurations to optimize voltage gain.  
 Testing shows ~5–7V DC generation from consistent foot pressure.
 
 ### 🔋 Battery Charging Verification
-![Battery Test](img/5.jpg)
+![Battery Test](project/img/5.jpg)
 Rechargeable **Li-ion cell** stores the generated power.  
 Charging waveform verified using an **oscilloscope** to ensure smooth DC output.
 
 ### 💳 RFID & LCD Integration
-![RFID Module](img/6.jpg)
+![RFID Module](project/img/6.jpg)
 RFID reader verifies user identity and sends signals to the microcontroller for access control.
 
 ### ⚡ Charging Display
-![Charging Display](img/7.jpg)
+![Charging Display](project/img/7.jpg)
 LCD shows live charging status and access feedback.
 
 ---
@@ -109,7 +109,7 @@ LCD shows live charging status and access feedback.
 ## 🧠 Firmware Design
 
 ### 📈 Flow of Firmware
-![Firmware Flowchart](img/3.png)
+![Firmware Flowchart](project/img/3.png)
 
 ### 🔹 Firmware Architecture
 
