@@ -184,8 +184,4 @@ if (tag_id == ACCESS_GRANTED_TAG_ID) {
 1. A. Babu, *“Advanced Footstep Power Generation System”*, Instructables, 2017.  
 2. S. Panghate, *“Advanced Footstep Power Generation System using RFID for Charging”*, IRJET, 2020.
 
----
 
-## 🖋️ License
-This project is created as part of an academic requirement and is open for educational and non-commercial use.  
-© 2024 University of Ruhuna – Group 07, EE6304.
